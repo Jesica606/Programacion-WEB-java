@@ -1,0 +1,39 @@
+body{
+    background-color: #183666;
+}
+
+h1{ display : flex;
+    justify-content : Center; 
+    font-family:'Gill Sans', sans-serif;
+    padding-top: 2%;
+    color: white;
+}
+  
+img {
+    width: 90%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }   
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(180px, auto);
+    gap: 30px;
+    text-align: center;
+    flex-direction: row;
+    padding:2%;
+    padding-inline-start: 0;
+  }
+
+h3 {
+    color: white;
+    font-family:sans-serif;
+}
+label{
+    color:white;
+}
+li{
+    border: solid white;
+    background-color:black;
+}
